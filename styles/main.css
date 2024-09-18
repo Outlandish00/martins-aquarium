@@ -1,0 +1,116 @@
+.fish_image{
+    max-width: 100px;
+    max-height: 80px;
+    margin-right:10px;
+}
+.fish_name{
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size: 30px;
+    font-weight:bold;
+
+}
+.fish_species{
+    margin: 5px 0 5px 0;
+
+}
+
+
+.fish_length{
+    margin: 5px 0 5px 0;
+
+}
+
+.fish_location{
+    margin: 5px 0 5px 0;
+
+}
+
+.fish_diet{
+    margin: 5px 0 5px 0;
+
+}
+.fish_details{
+    flex-grow:1;
+}
+#fishList{
+    /* justify-content: space-evenly; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    max-width: 900px;
+    max-height: auto;
+    border: 2px solid #333;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+}
+
+.fish{
+    display: flex;
+    flex-basis: calc(50% - 30px);
+    flex-direction: row;
+    padding:5px;
+    box-shadow: 0 2px 4px black;
+    overflow:hidden;
+    /* align-items: center;  */
+    text-align: right;
+    background-color: rgb(240, 240, 240);
+    max-height: 200px;
+}
+
+.fish:hover{
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 8px black;
+}
+
+#tipList{
+    border: 2px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    /* margin-left: 67%; */
+    /* max-height: 400px; */
+    align-content: flex-start;
+    /* height: 300px; */
+    width: 33%;
+    justify-self: flex-start;
+}
+.wholePie{
+    display:flex;
+    flex-direction: row;
+    gap: 20%;
+    margin-bottom: 10vh;
+}
+.fish_tips_header{
+    display:flex;
+    justify-content: center;
+
+}
+.tips{
+    display:flex;
+    justify-content: flex-start;
+}
+#locationList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    max-width: 900px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.locations{   
+    display: flex;
+    flex-basis: calc(50% - 30px);
+    flex-direction: row;
+    flex-wrap: wrap;;
+    box-shadow: 0 2px 4px black;
+    /* overflow:hidden; */
+    /* align-items: center;  */
+    text-align: right;
+    background-color: rgb(240, 240, 240);
+    /* max-height: 200px; */
+    /* max-width: 20%; */
+    flex-grow: 0;
+}
